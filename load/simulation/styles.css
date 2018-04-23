@@ -92,13 +92,13 @@ pre code {
     padding-bottom: 20px;
 }
 
-.worker-content-container .variable-section {
+.variable-section {
     position: relative;
     padding: 20px 20px 0;
     display: block;
 }
 
-.worker-content-container .variable-type {
+.variable-type {
     position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -108,31 +108,59 @@ pre code {
     line-height: 20px;
 }
 
-.worker-content-container .variable-row {
+.variable-row {
     position: relative;
-    padding: 10px;
     display: block;
     border: 1px solid #4CAF50;
     border-top: none;
     border-radius: 10px;
 }
 
-.worker-content-container .variable-row:first-of-type {
+.variable-row:first-of-type {
     border-top: 1px solid #4CAF50;
 }
 
-.worker-content-container .variable-key {
+.variable-key {
+    padding: 10px;
     width: 20%;
     display: inline-block;
     text-align: left;
     border-right: 1px solid #4CAF50;
 }
 
-.worker-content-container .variable-value {
-    padding-left: 10px;
-    width: 75%;
+.variable-value {
+    padding: 10px;
+    width: 70%;
     display: inline-block;
     text-align: left;
+}
+
+.variable-primary-key {
+    padding: 10px;
+    width: 20%;
+    display: inline-block;
+    border-right: 1px solid #4CAF50;
+    text-align: left;
+}
+
+.variable-secondary-key {
+    padding: 10px;
+    width: 25%;
+    display: inline-block;
+    border-right: 1px solid #4CAF50;
+    text-align: left;
+}
+
+.variable-list-values {
+    padding: 10px;
+    width: 42%;
+    display: inline-block;
+    text-align: left;
+}
+
+.header {
+    background-color: #dddddd;
+    font-weight: 700;
 }
 
 .case-container {
